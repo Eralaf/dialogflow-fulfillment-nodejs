@@ -197,7 +197,7 @@ class Suggestion extends RichResponse {
       });
     } else if (platform === PLATFORMS.FACEBOOK) {
       response = {quickReplies: {
-        title: this.title,
+        //title: this.title,
         quickReplies: this.replies,
         platform: platform
       }};
