@@ -180,7 +180,7 @@ class Suggestion extends RichResponse {
       var blblbl = {
         "text": {
           "text": [
-            "aaaaaaaaaaaaaaaaaaaaaaaaah"
+            platform
           ]
         }
       }
