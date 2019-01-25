@@ -177,7 +177,14 @@ class Suggestion extends RichResponse {
     // Check if response is platform specific
     if (this.platform && this.platform !== platform) {
       // If it is and is not for the specific platform return null
-      return null;
+      var response = {
+        "text": {
+          "text": [
+            "aaaaaaaaaaaaaaaaaaaaaaaaah"
+          ]
+        }
+      }
+      return response;
     }
 
     let response;
